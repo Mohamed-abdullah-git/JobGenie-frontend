@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Alerts - Career Copilot</title>
+  <link rel="stylesheet" href="assets/css/global.css" />
+  <link rel="stylesheet" href="assets/css/layout.css" />
+  <link rel="stylesheet" href="assets/css/jobs.css" />
+</head>
+<body>
+  <div class="page">
+    <header id="navbar"></header>
+    <main class="content">
+      <section class="card">
+        <h2>Job Alerts</h2>
+        <form id="alerts-form" class="stack">
+          <label>Keywords
+            <input type="text" name="keywords" />
+          </label>
+          <label>Location
+            <input type="text" name="location" />
+          </label>
+          <button class="btn primary" type="submit">Save Alert</button>
+        </form>
+        <div id="alerts-list"></div>
+      </section>
+    </main>
+    <footer id="footer"></footer>
+  </div>
+  <script type="module" src="assets/js/alerts.js"></script>
+</body>
+</html>
